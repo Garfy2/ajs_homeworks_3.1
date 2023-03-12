@@ -1,0 +1,33 @@
+{
+    "name": "ajs-homewark_3_ajsmodule",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "publishConfig": {
+      "registry":"https://npm.pkg.github.com/@garfy2"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack --mode production"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Garfy2/ajs_homeworks_3.1.git"
+    },
+    "author": "Alexander",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Garfy2/ajs_homeworks_3.1/issues"
+    },
+    "homepage": "https://github.com/Garfy2/ajs_homeworks_3.1#readme",
+    "dependencies": {
+      "@babel/cli": "^7.15.7",
+      "@babel/core": "^7.15.8",
+      "@babel/preset-env": "^7.15.8",
+      "babel-loader": "^8.2.3",
+      "webpack-cli": "^4.9.1"
+    },
+    "devDependencies": {
+      "webpack": "^5.59.1"
+    }
+  }
